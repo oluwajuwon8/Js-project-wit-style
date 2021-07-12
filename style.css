@@ -177,15 +177,15 @@ background: #fff;
         cursor: pointer;
     }
 
-    #mobile-memu.is-active .bar:nth-child(2) {
+    #mobile-menu.is-active .bar:nth-child(2) {
         opacity: 0;
     }
 
-    #mobile-memu.is-active .bar:nth-child(1) {
+    #mobile-menu.is-active .bar:nth-child(1) {
         transform: translateY(8PX) rotate(45deg);
 }
 
-#mobile-memu.is-active .bar:nth-child(3) {
+#mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8PX) rotate(-45deg);
 }
 }
@@ -222,7 +222,7 @@ background:#833ab4;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -mo-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 
 .hero__description {
